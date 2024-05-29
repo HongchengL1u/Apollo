@@ -27,6 +27,8 @@ include_directories(
 )
 
 
+
+
 find_package(OsqpEigen)
 target_link_libraries(${PROJECT_NAME} PUBLIC OsqpEigen::OsqpEigen)
 
