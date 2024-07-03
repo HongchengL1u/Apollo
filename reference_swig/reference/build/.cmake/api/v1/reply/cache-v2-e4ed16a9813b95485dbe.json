@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/build"
+			"value" : "/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference_swig/reference/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference"
+			"value" : "/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference_swig/reference"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1179,7 +1179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/build"
+			"value" : "/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference_swig/reference/build"
 		},
 		{
 			"name" : "Reference_SOURCE_DIR",
@@ -1191,7 +1191,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference"
+			"value" : "/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference_swig/reference"
 		}
 	],
 	"kind" : "cache",

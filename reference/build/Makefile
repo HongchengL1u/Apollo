@@ -160,6 +160,36 @@ src/Reference.s:
 .PHONY : src/Reference.s
 
 # target to build an object file
+src/VehiclePoint.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reference.dir/build.make CMakeFiles/Reference.dir/src/VehiclePoint.o
+.PHONY : src/VehiclePoint.o
+
+# target to preprocess a source file
+src/VehiclePoint.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reference.dir/build.make CMakeFiles/Reference.dir/src/VehiclePoint.i
+.PHONY : src/VehiclePoint.i
+
+# target to generate assembly for a file
+src/VehiclePoint.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reference.dir/build.make CMakeFiles/Reference.dir/src/VehiclePoint.s
+.PHONY : src/VehiclePoint.s
+
+# target to build an object file
+src/VehicleTrajectory.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reference.dir/build.make CMakeFiles/Reference.dir/src/VehicleTrajectory.o
+.PHONY : src/VehicleTrajectory.o
+
+# target to preprocess a source file
+src/VehicleTrajectory.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reference.dir/build.make CMakeFiles/Reference.dir/src/VehicleTrajectory.i
+.PHONY : src/VehicleTrajectory.i
+
+# target to generate assembly for a file
+src/VehicleTrajectory.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reference.dir/build.make CMakeFiles/Reference.dir/src/VehicleTrajectory.s
+.PHONY : src/VehicleTrajectory.s
+
+# target to build an object file
 src/test.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reference.dir/build.make CMakeFiles/Reference.dir/src/test.o
 .PHONY : src/test.o
@@ -189,6 +219,12 @@ help:
 	@echo "... src/Reference.o"
 	@echo "... src/Reference.i"
 	@echo "... src/Reference.s"
+	@echo "... src/VehiclePoint.o"
+	@echo "... src/VehiclePoint.i"
+	@echo "... src/VehiclePoint.s"
+	@echo "... src/VehicleTrajectory.o"
+	@echo "... src/VehicleTrajectory.i"
+	@echo "... src/VehicleTrajectory.s"
 	@echo "... src/test.o"
 	@echo "... src/test.i"
 	@echo "... src/test.s"

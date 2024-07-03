@@ -97,10 +97,38 @@ CMakeFiles/Reference.dir/src/RefPoint.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Reference.dir/src/RefPoint.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/src/RefPoint.cpp -o CMakeFiles/Reference.dir/src/RefPoint.s
 
+CMakeFiles/Reference.dir/src/VehiclePoint.o: CMakeFiles/Reference.dir/flags.make
+CMakeFiles/Reference.dir/src/VehiclePoint.o: ../src/VehiclePoint.cpp
+CMakeFiles/Reference.dir/src/VehiclePoint.o: CMakeFiles/Reference.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Reference.dir/src/VehiclePoint.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Reference.dir/src/VehiclePoint.o -MF CMakeFiles/Reference.dir/src/VehiclePoint.o.d -o CMakeFiles/Reference.dir/src/VehiclePoint.o -c /home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/src/VehiclePoint.cpp
+
+CMakeFiles/Reference.dir/src/VehiclePoint.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Reference.dir/src/VehiclePoint.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/src/VehiclePoint.cpp > CMakeFiles/Reference.dir/src/VehiclePoint.i
+
+CMakeFiles/Reference.dir/src/VehiclePoint.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Reference.dir/src/VehiclePoint.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/src/VehiclePoint.cpp -o CMakeFiles/Reference.dir/src/VehiclePoint.s
+
+CMakeFiles/Reference.dir/src/VehicleTrajectory.o: CMakeFiles/Reference.dir/flags.make
+CMakeFiles/Reference.dir/src/VehicleTrajectory.o: ../src/VehicleTrajectory.cpp
+CMakeFiles/Reference.dir/src/VehicleTrajectory.o: CMakeFiles/Reference.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Reference.dir/src/VehicleTrajectory.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Reference.dir/src/VehicleTrajectory.o -MF CMakeFiles/Reference.dir/src/VehicleTrajectory.o.d -o CMakeFiles/Reference.dir/src/VehicleTrajectory.o -c /home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/src/VehicleTrajectory.cpp
+
+CMakeFiles/Reference.dir/src/VehicleTrajectory.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Reference.dir/src/VehicleTrajectory.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/src/VehicleTrajectory.cpp > CMakeFiles/Reference.dir/src/VehicleTrajectory.i
+
+CMakeFiles/Reference.dir/src/VehicleTrajectory.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Reference.dir/src/VehicleTrajectory.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/src/VehicleTrajectory.cpp -o CMakeFiles/Reference.dir/src/VehicleTrajectory.s
+
 CMakeFiles/Reference.dir/src/test.o: CMakeFiles/Reference.dir/flags.make
 CMakeFiles/Reference.dir/src/test.o: ../src/test.cpp
 CMakeFiles/Reference.dir/src/test.o: CMakeFiles/Reference.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Reference.dir/src/test.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Reference.dir/src/test.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Reference.dir/src/test.o -MF CMakeFiles/Reference.dir/src/test.o.d -o CMakeFiles/Reference.dir/src/test.o -c /home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/src/test.cpp
 
 CMakeFiles/Reference.dir/src/test.i: cmake_force
@@ -115,6 +143,8 @@ CMakeFiles/Reference.dir/src/test.s: cmake_force
 Reference_OBJECTS = \
 "CMakeFiles/Reference.dir/src/Reference.o" \
 "CMakeFiles/Reference.dir/src/RefPoint.o" \
+"CMakeFiles/Reference.dir/src/VehiclePoint.o" \
+"CMakeFiles/Reference.dir/src/VehicleTrajectory.o" \
 "CMakeFiles/Reference.dir/src/test.o"
 
 # External object files for target Reference
@@ -122,10 +152,12 @@ Reference_EXTERNAL_OBJECTS =
 
 Reference: CMakeFiles/Reference.dir/src/Reference.o
 Reference: CMakeFiles/Reference.dir/src/RefPoint.o
+Reference: CMakeFiles/Reference.dir/src/VehiclePoint.o
+Reference: CMakeFiles/Reference.dir/src/VehicleTrajectory.o
 Reference: CMakeFiles/Reference.dir/src/test.o
 Reference: CMakeFiles/Reference.dir/build.make
 Reference: CMakeFiles/Reference.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Reference"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Reference"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Reference.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

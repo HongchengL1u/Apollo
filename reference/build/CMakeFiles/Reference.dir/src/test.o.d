@@ -137,4 +137,6 @@ CMakeFiles/Reference.dir/src/test.o: \
  /usr/include/c++/7/bits/locale_facets.tcc \
  /usr/include/c++/7/bits/basic_ios.tcc \
  /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
- /usr/include/c++/7/bits/istream.tcc
+ /usr/include/c++/7/bits/istream.tcc \
+ /home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/include/VehicleTrajectory.h \
+ /home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/include/VehiclePoint.h

@@ -39,6 +39,6 @@ RefPoint::RefPoint(double x,double y,double theta,double kappa)
 
 // 重载 << 操作符
 std::ostream& operator<<(std::ostream& os, RefPoint& refpoint) {
-    os << refpoint.x() << ", " << refpoint.y()<< ", " << refpoint.theta()<< ", " << refpoint.kappa();
+    os << refpoint.x() << "," << refpoint.y()<< "," << refpoint.theta()<< "," << refpoint.kappa();
     return os;
 }
