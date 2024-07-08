@@ -248,7 +248,6 @@ void SpeedPlanQPProblem::solve_OSQP(void)
     solver.settings()->setAbsoluteTolerance(1e-4);
     solver.settings()->setVerbosity(false);
     solver.settings()->setWarmStart(true);
- 
     // set the initial data of the QP solver
     solver.data()->setNumberOfVariables(dim_time_*dim_state_);   //变量数n
     solver.data()->setNumberOfConstraints(dim_time_*(dim_eq_+dim_ineq_)); //约束数m

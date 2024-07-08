@@ -7,10 +7,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Reference.dir/src/VehiclePoint.o.d"
   "CMakeFiles/Reference.dir/src/VehicleTrajectory.o"
   "CMakeFiles/Reference.dir/src/VehicleTrajectory.o.d"
-  "CMakeFiles/Reference.dir/src/test.o"
-  "CMakeFiles/Reference.dir/src/test.o.d"
-  "Reference"
-  "Reference.pdb"
+  "CMakeFiles/Reference.dir/src/trajectory_projection.o"
+  "CMakeFiles/Reference.dir/src/trajectory_projection.o.d"
+  "libReference.pdb"
+  "libReference.so"
 )
 
 # Per-language clean rules from dependency scanning.

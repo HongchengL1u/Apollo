@@ -19,9 +19,9 @@ void VehicleTrajectory::set_traj_from_commonroad(std::vector<double>& xyvaht)
     }
 }
 
-void VehicleTrajectory::set_step(double step)
+void VehicleTrajectory::set_dt(double dt)
 {
-    step_ = step;
+    dt_ = dt;
 }
 
 // 重载 << 操作符

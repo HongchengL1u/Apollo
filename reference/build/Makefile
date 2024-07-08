@@ -190,19 +190,19 @@ src/VehicleTrajectory.s:
 .PHONY : src/VehicleTrajectory.s
 
 # target to build an object file
-src/test.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reference.dir/build.make CMakeFiles/Reference.dir/src/test.o
-.PHONY : src/test.o
+src/trajectory_projection.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reference.dir/build.make CMakeFiles/Reference.dir/src/trajectory_projection.o
+.PHONY : src/trajectory_projection.o
 
 # target to preprocess a source file
-src/test.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reference.dir/build.make CMakeFiles/Reference.dir/src/test.i
-.PHONY : src/test.i
+src/trajectory_projection.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reference.dir/build.make CMakeFiles/Reference.dir/src/trajectory_projection.i
+.PHONY : src/trajectory_projection.i
 
 # target to generate assembly for a file
-src/test.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reference.dir/build.make CMakeFiles/Reference.dir/src/test.s
-.PHONY : src/test.s
+src/trajectory_projection.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reference.dir/build.make CMakeFiles/Reference.dir/src/trajectory_projection.s
+.PHONY : src/trajectory_projection.s
 
 # Help Target
 help:
@@ -225,9 +225,9 @@ help:
 	@echo "... src/VehicleTrajectory.o"
 	@echo "... src/VehicleTrajectory.i"
 	@echo "... src/VehicleTrajectory.s"
-	@echo "... src/test.o"
-	@echo "... src/test.i"
-	@echo "... src/test.s"
+	@echo "... src/trajectory_projection.o"
+	@echo "... src/trajectory_projection.i"
+	@echo "... src/trajectory_projection.s"
 .PHONY : help
 
 

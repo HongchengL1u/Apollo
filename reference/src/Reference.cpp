@@ -18,11 +18,6 @@ std::vector<RefPoint> Reference::reference_line(void) const
     return reference_line_;
 }
 
-
-
-
-
-
 // 重载 << 操作符
 std::ostream& operator<<(std::ostream& os, Reference& refline) {
     for(RefPoint& el:refline.reference_line()) 

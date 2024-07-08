@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/Reference.dir/src/Reference.o CMakeFiles/Reference.dir/src/RefPoint.o CMakeFiles/Reference.dir/src/VehiclePoint.o CMakeFiles/Reference.dir/src/VehicleTrajectory.o CMakeFiles/Reference.dir/src/test.o -o Reference 
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libReference.so -o libReference.so CMakeFiles/Reference.dir/src/Reference.o CMakeFiles/Reference.dir/src/RefPoint.o CMakeFiles/Reference.dir/src/trajectory_projection.o CMakeFiles/Reference.dir/src/VehiclePoint.o CMakeFiles/Reference.dir/src/VehicleTrajectory.o 

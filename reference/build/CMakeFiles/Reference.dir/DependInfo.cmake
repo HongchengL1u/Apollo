@@ -12,7 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/src/Reference.cpp" "CMakeFiles/Reference.dir/src/Reference.o" "gcc" "CMakeFiles/Reference.dir/src/Reference.o.d"
   "/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/src/VehiclePoint.cpp" "CMakeFiles/Reference.dir/src/VehiclePoint.o" "gcc" "CMakeFiles/Reference.dir/src/VehiclePoint.o.d"
   "/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/src/VehicleTrajectory.cpp" "CMakeFiles/Reference.dir/src/VehicleTrajectory.o" "gcc" "CMakeFiles/Reference.dir/src/VehicleTrajectory.o.d"
-  "/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/src/test.cpp" "CMakeFiles/Reference.dir/src/test.o" "gcc" "CMakeFiles/Reference.dir/src/test.o.d"
+  "/home/liuhongcheng/Desktop/AS_cpp/MyApollo/reference/src/trajectory_projection.cpp" "CMakeFiles/Reference.dir/src/trajectory_projection.o" "gcc" "CMakeFiles/Reference.dir/src/trajectory_projection.o.d"
   )
 
 # Targets to which this target links.
